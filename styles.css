@@ -1,0 +1,69 @@
+html { 
+    background: url(./images/background2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.content {
+    max-width: 50%;
+    margin: auto;
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-color: #faebd7;
+}
+
+img {
+    display:block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+img + div {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    color: #392114;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.dashed {
+    border-top: 3px dashed #C76A38;
+    margin: 20px 0;
+}
+
+.recipelist {
+    text-align: center;
+    list-style-type:none;
+
+}
+
+.recipelist li {
+    padding: 5px 0;
+}
+
+a {
+    color: #000;
+ }
+
+ a:hover {
+    color: #5492AB;
+ }
+
+ ul li {
+    padding: 3px 0;
+ }
+
+ ol li {
+    padding: 0 0 10px 0;
+ }
